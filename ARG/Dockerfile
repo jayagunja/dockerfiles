@@ -5,5 +5,5 @@ ENV course="devops" \
     duration="120hrs"
 ARG USERNAME=Jayanthi    
 ARG USERNAME=$USERNAME
-RUN echo "Hello User: ${USERNAME}", image version: ${version}" > /tmp/devops.txt
+RUN echo "Hello User: ${USERNAME}, image version: ${version}" > /tmp/devops.txt
 CMD ["sleep", "100"]   
